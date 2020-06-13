@@ -1,6 +1,6 @@
 declare module "ganache-core" {
   // TODO: use regular dependency when https://github.com/trufflesuite/ganache-core/pull/567/files is merged
-  import * as Web3Provider from "web3";
+  import Web3Provider from "web3";
 
   namespace Ganache {
     export interface IProviderOptions {
